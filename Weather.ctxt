@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Weather
+comment0.text=\n\ Possible\ weather\ conditions\ for\ a\ simulator.\n\n\ @author\ Daniel\ Ratiu\ and\ Michael\ Jacob\n\ @version\ 22/02/2018\n
+comment1.params=
+comment1.target=Weather\ randomWeather()
+comment1.text=\n\ Randomise\ a\ weather\ condition\ with\ equal\ probabilities.\n\ @return\ A\ random\ weather\ condition.\n
+comment2.params=
+comment2.target=Weather\ randomWeightedWeather()
+comment2.text=\n\ Randomise\ a\ weather\ condition\ with\ weighted\ probabilities.\n\ @return\ A\ random\ weather\ condition.\n
+numComments=3
