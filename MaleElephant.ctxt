@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MaleElephant
+comment0.text=\n\ A\ male\ elephant.\ It\ can\ not\ give\ birth.\n\ \n\ @author\ Daniel\ Ratiu\ and\ Michael\ Jacob\n\ @version\ 22/02/2018\n
+comment1.params=randomAge\ field\ location
+comment1.target=MaleElephant(boolean,\ Field,\ Location)
+comment1.text=\n\ Create\ a\ new\ male\ elephant.\ A\ elephant\ may\ be\ created\ with\ age\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\ \n\ @param\ randomAge\ If\ true,\ the\ elephant\ will\ have\ a\ random\ age.\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n
+comment2.params=newelephant
+comment2.target=void\ giveBirth(java.util.List)
+comment2.text=\n\ The\ male\ elephant\ doesn't\ give\ birth.\n
+comment3.params=
+comment3.target=boolean\ canBreed()
+comment3.text=\n\ A\ male\ elephant\ can\ breed\ if\ it\ has\ reached\ the\ breeding\ age.\n\ @return\ true\ if\ the\ elephant\ can\ breed,\ false\ otherwise.\n
+numComments=4

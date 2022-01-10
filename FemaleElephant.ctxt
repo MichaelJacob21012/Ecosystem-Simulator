@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FemaleElephant
+comment0.text=\n\ A\ female\ elephant.\ It\ can\ give\ birth.\n\ \n\ @author\ Daniel\ Ratiu\ and\ Michael\ Jacob\n\ @version\ 22/02/2018\n
+comment1.params=randomAge\ field\ location
+comment1.target=FemaleElephant(boolean,\ Field,\ Location)
+comment1.text=\n\ Create\ a\ new\ female\ elephant.\ A\ elephant\ may\ be\ created\ with\ age\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\ \n\ @param\ randomAge\ If\ true,\ the\ elephant\ will\ have\ a\ random\ age.\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n
+comment2.params=newelephant
+comment2.target=void\ giveBirth(java.util.List)
+comment2.text=\n\ Check\ whether\ or\ not\ this\ elephant\ is\ to\ give\ birth\ at\ this\ step.\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\n\ @param\ newelephant\ A\ list\ to\ return\ newly\ born\ elephant.\n
+comment3.params=
+comment3.target=int\ breed()
+comment3.text=\n\ Generate\ a\ number\ representing\ the\ number\ of\ births,\n\ if\ it\ can\ breed.\n\ @return\ The\ number\ of\ births\ (may\ be\ zero).\n
+comment4.params=
+comment4.target=boolean\ canBreed()
+comment4.text=\n\ A\ elephant\ can\ breed\ if\ it\ has\ reached\ the\ breeding\ age.\n\ @return\ true\ if\ the\ elephant\ can\ breed,\ false\ otherwise.\n
+comment5.params=
+comment5.target=boolean\ findBreedingPartner()
+comment5.text=\n\ Look\ for\ a\ mature\ male\ elephant\ adjacent\ to\ the\ current\ location.\n\ Necessary\ for\ breeding.\n\ @return\ True\ if\ a\ male\ was\ found.\n
+numComments=6
